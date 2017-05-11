@@ -1,4 +1,10 @@
-h1, p, button {
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+
+h1, p, button,input {
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -8,10 +14,10 @@ header {
 }
 
 h1 {
-  margin: 0px;
   color: #E6E7E8;
   font-weight: 300;
   font-size: 50px;
+  margin: 0px;
   text-align: center;
 }
 
@@ -21,57 +27,100 @@ span {
   margin-right: 10px;
 }
 
-.guess-input {
-  margin-top:50px;
-  text-align: left;
-  margin-left: 500px;
-  width: 430px;
-  padding: 5px;
-  font-weight: 300;
-  font-size: 30px;
+
+.min-range {
   border: 2px solid #e6e7e8;
+  font-size: 15px;
+  font-weight: 300;
+  height: 20px;
+  margin-left: 585px;
+  margin-top: 75px;
+  padding: 5px;
+  width: 110px;
+}
+
+.max-range {
+  border: 2px solid #e6e7e8;
+  font-size: 15px;
+  font-weight: 300;
+  height: 20px;
+  margin-left: 10px;
+  padding: 5px;
+  width: 110px;
+}
+
+.range-button {
+  background-color: #e6e7e8;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  font-size: 25px;
+  margin-left: 595px;
+  margin-top: 40px;
+  padding: 5px;
+  width: 200px;
+}
+
+.range-button:hover{
+  background-color: #eb008b;
+  color: white;
+}
+
+
+.guess-input {
+  border: 2px solid #e6e7e8;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top:50px;
+  margin-left: 500px;
+  padding: 5px;
+  text-align: left;
+  width: 430px;
 }
 
 .guess-button {
   background-color: #e6e7e8;
   color: white;
   width: 200px;
-  font-size:25px;
+  font-size: 25px;
   margin-left: 500px;
   margin-top: 40px;
   border-radius: 20px;
   padding: 5px;
-  border:0;
-
+  border: 0;
 }
 
-.guess-button:hover {
-    background-color: #eb008b;
-    color: white;
+.guess-button:hover{
+  background-color: #eb008b;
+  color: white;
+}
+
+.guess-button:enabled{
+  background-color: #404041;
 }
 
 .guess-button:disabled {
-    background: #404041;
+  background: #d0d2d3;
+  color: white;
 }
 
 .clear {
   background-color: #e6e7e8;
+  border: 0;
+  border-radius: 20px;
   color: white;
-  width: 200px;
+  display:inline block;
   font-size:25px;
   margin-top: 40px;
   margin-left: 50px;
-  border-radius: 20px;
   padding: 5px;
-  display:inline block;
-  border: 0;
+  width: 200px;
 }
 
 .clue {
   color: #404041;
+  font-size: 25px;
   text-align: center;
-  font-size: 30px;
-
 }
 
 .output {
@@ -80,7 +129,6 @@ span {
   color:#eb008b;
   position: relative;
   width:2px;
-  margin top:5px;
   margin-left: 600px;
   margin-bottom: 0;
   margin-top: 0;
@@ -106,15 +154,3 @@ span {
     display:inline block;
     border: 0;
   }
-
-
-}
-
-
-
-
-
-
-
-
-}

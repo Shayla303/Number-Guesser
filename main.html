@@ -4,7 +4,7 @@
    <title>Number Guesser</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
   <link rel="stylesheet" href="ng.css">
-  <meta charset="utf-8">
+  <meta charset="utf-8" lang="eng">
  </head>
 
 <body.onload="GenerateNumber();">
@@ -12,17 +12,23 @@
     <h1><span>Number</span>Guesser</h1>
 </header>
 
-<main class="clearfix">
-  <input class="guess-input" type="text" placeholder ="Enter Your Guess" onclick= "guess ()">
+<!-- Guess box area -->
 
-  <button class="guess-button">Guess</button>
-  <button class="clear">Clear</button>
-  <p class="clue"> Your last guess was<p>
-    <p class="output">25</p>
+<!-- <main class="clearfix"> -->
 
-    <p class="response">That is too High</p>
+ <input class="min-range" type="text" placeholder="Min Range"/>
+ <input class="max-range" type="text" placeholder="Max Range"/>
 
-  <button class="reset">Reset</button>
+ <button class="range-button" type="button" name= "range">Guess</button>
+
+ <input class="guess-input" type="text" placeholder ="Enter Your Guess"/>
+
+<button class="guess-button" type="button" name= "guess">Guess</button>
+<button class="clear" type="button" name="guess">Clear</button>  <p class="clue"> Your last guess was<p>
+<p class="output"></p>
+<p class="response">  </p>
+
+<button class="reset" type="button" name="reset" >Reset</button>
 
 
   <script src="ng.js"></script>
