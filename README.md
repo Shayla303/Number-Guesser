@@ -1,3 +1,3 @@
-#NUMBER GUESSER#  1705 MOD !
+#NUMBER GUESSER#  1705 MOD 1
 
 The objective of Number Guesser is to create a game that allows the user to enter a number between 1 and 100. If the guess is too low, the game will return a response prompting the user to keep guessing, providing a clue that the guess was "Too Low". If the guess is too high, the game will return a response prompting the user to keep guessing, providing a clue that the guess was "Too High". If the user attempts to enter a non numeric value the game will tell provide a response "That is not a number". If the guess is correct, the game returns a congratulatory "BOOM !" . My iteration of this game follows through the end of Phase 2. I am interested in continuing to modify the game and turning it into a more interactive UI that allows the user to enter a minimum and maximum range of numbers to guess between. This was an enjoyable learning opportunity to utilize JavaScript in a very practical way.
